@@ -208,7 +208,7 @@ Regions:
             win_store: "nNAIPeURvqcDYRLIbnQxBSATXFC7UsnZWpZhcdic"
             win_steam: "dYXmz6BdMZXmw9B8RVOFeTydbPoIkDYh9LgA53zG"
             nsb: "Xmgam5waflWRcPWRU833lmUYr3IJqYaCRYJHO5oI"
-        news: "https://news.google.com/rss?hl=en-CA&gl=CA&ceid=CA:en"
+        news: "https://na.wotblitz.com/%s/api/cms/rss/news/"
         contentPages: "https://wotblitz.com/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
         popupNews: "https://na.wotblitz.com/%s/api/cms/promo/"
         eula: "https://wotblitz.com/%s/content/blitz-client/docs/user_agreement/"
