@@ -198,7 +198,7 @@ Regions:
 
     North America:
         wgnwn: "https://na.wargaming.net"
-        clientId: "2BPjeiZ09NBrHjc4rsV9KqN3za41nGCoRKmqUU9G"
+        clientId: "Xmgam5waflWRcPWRU833lmUYr3IJqYaCRYJHO5oI"
         # new ids per platform
         clientIds:
             android: "OhH8oqTXjEwKnxzHlhDcXP4R4KAxeSVJlCr27inR"
@@ -206,8 +206,8 @@ Regions:
             macos: "nxHDFVeIzasjJp6eoJgEJ2dBmLybfBLKdMzGvM0v"
             macos_steam: "aq9AqDN4OO7fWYMPKdkJyS3kG4kTfnYFcB1zxrqk"
             win_store: "nNAIPeURvqcDYRLIbnQxBSATXFC7UsnZWpZhcdic"
-            win_steam: "Xmgam5waflWRcPWRU833lmUYr3IJqYaCRYJHO5oI"
-            nsb: "dYXmz6BdMZXmw9B8RVOFeTydbPoIkDYh9LgA53zG"
+            win_steam: "dYXmz6BdMZXmw9B8RVOFeTydbPoIkDYh9LgA53zG"
+            nsb: "Xmgam5waflWRcPWRU833lmUYr3IJqYaCRYJHO5oI"
         news: "https://na.wotblitz.com/%s/api/cms/rss/news/"
         contentPages: "https://wotblitz.com/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
         popupNews: "https://na.wotblitz.com/%s/api/cms/promo/"
@@ -218,17 +218,17 @@ Regions:
         realm: "us"
         flag: "us"
         wotBlitzPortal: "https://na.wotblitz.com"
-        adsRealmAlias: "NA"
-        preferredHost: "2"
+        adsRealmAlias: "us"
+        preferredHost: "best"
         bestPingTolerance: 20
         analyticsConfig:
             keyedArchive:
                 started:
-                    bool: true
+                    bool: false
                 events:
                     keyedArchive:
                         all:
-                            bool: true
+                            bool: false
         hosts:
             NA_C0:
                 clusterID: 0
