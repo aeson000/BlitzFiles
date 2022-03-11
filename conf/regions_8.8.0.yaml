@@ -216,19 +216,19 @@ Regions:
         clansEULA: "https://legal.na.wargaming.net/en/clan-rules-blitz/"
         tournamentEULA: "https://wotblitz.com/%(locale)/mobile/blitz-1000/"
         realm: "us"
-        flag: "us"
+        flag: "ca"
         wotBlitzPortal: "https://na.wotblitz.com"
-        adsRealmAlias: "us"
-        preferredHost: "1"
+        adsRealmAlias: "steam"
+        preferredHost: "2"
         bestPingTolerance: 20
         analyticsConfig:
             keyedArchive:
                 started:
-                    bool: false
+                    bool: true
                 events:
                     keyedArchive:
                         all:
-                            bool: false
+                            bool: true
         hosts:
             NA_C0:
                 clusterID: 0
