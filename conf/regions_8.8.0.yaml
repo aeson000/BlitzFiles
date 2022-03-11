@@ -219,7 +219,7 @@ Regions:
         flag: "us"
         wotBlitzPortal: "https://na.wotblitz.com"
         adsRealmAlias: "us"
-        preferredHost: "NA_C1"
+        preferredHost: "1"
         bestPingTolerance: 20
         analyticsConfig:
             keyedArchive:
