@@ -192,28 +192,28 @@ Regions:
             y: 0.35
 
     North America:
-        wgnwn: "https://eu.wargaming.net"
-        clientId: "D6lcd51pjyFVaRWPGGbVfBS6AGVBaSyN3wYCh9y4"
+        wgnwn: "https://na.wargaming.net"
+        clientId: "2BPjeiZ09NBrHjc4rsV9KqN3za41nGCoRKmqUU9G"
         # new ids per platform
         clientIds:
-            android: "2Nll5Q5K17DWcO7DPfml5R2OrR0bap74QHCyBJ7T"
-            ios: "mptionNaBzot3RLccox1OPXUd9kj5gw0vNMW0zAt"
-            macos: "9L832i8LyrraT89q93jFcEZbqknKW8QqzS1Topyy"
-            macos_steam: "zU4VbHv8YpNsj8eb9In44OZiUjSb50Lrw26NAOhG"
-            win_store: "WfLPGAQwtCdVu0rWW00ghJaVA8qPvXKIAQAbzmUc"
-            win_steam: "6mcnWI6lKG9A3eAn5AGhbTX3q0Y53jJ8cGG6EsCJ"
-            nsb: "1KOQHcMByd9z2Gkzvl24gW9ya5PurBdwmTSJyJCf"
-        news: "https://eu.wotblitz.com/%s/api/cms/rss/news/"
-        contentPages: "https://wotblitz.eu/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
-        popupNews: "https://eu.wotblitz.com/%s/api/cms/promo/"
-        eula: "https://wotblitz.eu/%s/content/blitz-client/docs/user_agreement/"
-        privacyPolicy: "https://wotblitz.eu/%s/content/blitz-client/docs/privacy_policy/"
-        clansEULA: "https://legal.eu.wargaming.net/en/clan-rules-blitz/"
-        tournamentEULA: "https://wotblitz.eu/%(locale)/mobile/blitz-1000/"
-        realm: "na"
-        flag: "eu"
-        wotBlitzPortal: "https://eu.wotblitz.com"
-        adsRealmAlias: "eu"
+            android: "OhH8oqTXjEwKnxzHlhDcXP4R4KAxeSVJlCr27inR"
+            ios: "0QNhf7T8HkfXhah8t22ZJtjtPpla77H3M8OtfrEj"
+            macos: "nxHDFVeIzasjJp6eoJgEJ2dBmLybfBLKdMzGvM0v"
+            macos_steam: "aq9AqDN4OO7fWYMPKdkJyS3kG4kTfnYFcB1zxrqk"
+            win_store: "nNAIPeURvqcDYRLIbnQxBSATXFC7UsnZWpZhcdic"
+            win_steam: "dYXmz6BdMZXmw9B8RVOFeTydbPoIkDYh9LgA53zG"
+            nsb: "Xmgam5waflWRcPWRU833lmUYr3IJqYaCRYJHO5oI"
+        news: "https://na.wotblitz.com/%s/api/cms/rss/news/"
+        contentPages: "https://wotblitz.com/%s/content/blitz-client/%s/?account_id=%%(spaAuthDataDbId)&token=%%(spaAuthDataToken)"
+        popupNews: "https://na.wotblitz.com/%s/api/cms/promo/"
+        eula: "https://wotblitz.com/%s/content/blitz-client/docs/user_agreement/"
+        privacyPolicy: "https://wotblitz.com/%s/content/blitz-client/docs/privacy_policy/"
+        clansEULA: "https://legal.na.wargaming.net/en/clan-rules-blitz/"
+        tournamentEULA: "https://wotblitz.com/%(locale)/mobile/blitz-1000/"
+        realm: "eu"
+        flag: "us"
+        wotBlitzPortal: "https://na.wotblitz.com"
+        adsRealmAlias: "us"
         preferredHost: "best"
         bestPingTolerance: 20
         analyticsConfig:
@@ -240,7 +240,7 @@ Regions:
                 instagram: "https://www.instagram.com/wotblitz/"
                 youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
                 twitter: "https://twitter.com/WoTBlitz"
-                portal: "https://eu.wotblitz.com"
+                portal: "https://na.wotblitz.com"
                 wargaming: "https://www.wargaming.net"
                 discord: "https://discord.gg/sR2X6Hp"
             native:
@@ -250,8 +250,7 @@ Regions:
                 facebook: "fb://profile/572143336148627"
             native_android:
                 facebook: "fb://facewebmodal/f?href=https://www.facebook.com/wotblitz"
-        prizesWithdrawal: "https://payout.wotblitz.eu"
-        tmsPublicApi: 'https://tmsis.wotblitz.eu'
+        tmsPublicApi: 'https://tmsis.wotblitz.com'
         isGGMAllowed: true
         ggmCredits:
             tokenUrl: "https://auth.gamegrids.net/"
