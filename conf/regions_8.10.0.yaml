@@ -210,7 +210,7 @@ Regions:
         privacyPolicy: "https://wotblitz.eu/%s/content/blitz-client/docs/privacy_policy/"
         clansEULA: "https://legal.eu.wargaming.net/en/clan-rules-blitz/"
         tournamentEULA: "https://wotblitz.eu/%(locale)/mobile/blitz-1000/"
-        realm: "eu"
+        realm: "na"
         flag: "eu"
         wotBlitzPortal: "https://eu.wotblitz.com"
         adsRealmAlias: "eu"
