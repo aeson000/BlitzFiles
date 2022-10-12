@@ -155,22 +155,22 @@ Regions:
                         all:
                             bool: false
         hosts:
-            RU_C0:
+            LESTA_RU_C0:
                 clusterID: 0
                 url: "login0.tanksblitz.ru:20016"
-            RU_C1:
+            LESTA_RU_C1:
                 clusterID: 1
                 url: "login1.tanksblitz.ru:20016"
-            RU_C2:
+            LESTA_RU_C2:
                 clusterID: 2
                 url: "login2.tanksblitz.ru:20016"
-            RU_C3:
+            LESTA_RU_C3:
                 clusterID: 3
                 url: "login3.tanksblitz.ru:20016"
-            RU_C4:
+            LESTA_RU_C4:
                 clusterID: 4
                 url: "login4.tanksblitz.ru:20016"
-            RU_C5:
+            LESTA_RU_C5:
                 clusterID: 5
                 url: "login5.tanksblitz.ru:20016"
         communityUrls:
