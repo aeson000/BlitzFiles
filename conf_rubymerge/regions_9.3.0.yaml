@@ -139,7 +139,7 @@ Regions:
         privacyPolicy: "https://legal.tanksblitz.info/privacy-policy/"
         clansEULA: "https://legal.tanksblitz.info/clan-rules-blitz/"
         videoAssets: "https://wotblitz-gc.gcdn.co/assets/Video/ru/%(slug)"
-        realm: "ru"
+        realm: "LESTA_RU"
         flag: "ru"
         wotBlitzPortal: "https://tanksblitz.ru"
         adsRealmAlias: "ru"
