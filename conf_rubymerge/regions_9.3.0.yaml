@@ -123,7 +123,7 @@ Regions:
             x: 0.521
             y: 0.39
 
-    Russia:
+    LESTA_RU:
         wgnwn: "https://lesta.ru"
         wotBlitzPremShop: "https://lesta.ru/shop/wotb"
         # new ids per platform
