@@ -28,6 +28,16 @@ Common:
     assets: "https://wotblitz-gc.gcdn.co/assets/%s"
     videoAssets: "https://wotblitz-gc.gcdn.co/assets/Video/%(slug)"
     switchToDlcGen2Probability: 1.0
+    mlfOverride: false
+    msliveLinks:
+        faqLink: "https://wargaming.net/support/%(locale)/products/wotb/article/15393/"
+        portalLink: "https://wargaming.net/id/signin/"
+        regLink: "https://wargaming.net/support/%(locale)/products/wotb/article/37250/"
+    fbLinks:
+        faqLink: "https://wargaming.net/support/%(locale)/products/wotb/article/15393/"
+        portalLink: "https://wargaming.net/id/signin/"
+        regLink: "https://wargaming.net/support/%(locale)/products/wotb/article/37250/"
+    xstsTokenUrl: "https://wargaming.net"
     smartDlcUrls:
         - "http://dl-wotblitz-gc.wargaming.net/dlc"
         - "http://cdn.static.wotb.app/dlc"
@@ -70,15 +80,9 @@ Common:
         defaultAccountManagementUrl: "https://wargaming.net/personal/game_accounts/"
         defaultAccountFaqUrl: "https://wargaming.net/support/%(locale)/products/wotb/article/36554/"
     useDefaultAccount: true
-    forbiddenVersions:
-        - "11.16.0.296_6374815"
-        - "11.16.0.299_6374817"
-        - "11.16.0.302_6376152"
-        - "11.16.0.301_6374820"
-        - "11.16.126.0_6374843"
-        - "11.16.0.615_6374840"
-        - "11.16.62_6374836"
-        - "11.16.0.3_6374847"
+    pingAdjustment:
+        AU:
+            SG_C3: -35
 Regions:
     Europe:
         isWgniV3: true
@@ -121,9 +125,6 @@ Regions:
             EU_C0:
                 clusterID: 0
                 url: "login0.wotblitz.eu:20016"
-            EU_C1:
-                clusterID: 1
-                url: "login1.wotblitz.eu:20016"
             EU_C3:
                 clusterID: 3
                 url: "login3.wotblitz.eu:20016"
@@ -136,10 +137,10 @@ Regions:
                 instagram: "https://www.instagram.com/wotblitz/"
                 youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
                 twitter: "https://twitter.com/WoTBlitz"
-                portal: "https://eu.wotblitz.com"
                 wargaming: "https://www.wargaming.net"
-                blitzkit: "https://blitzkit.app"
                 discord: "https://discord.gg/sR2X6Hp"
+                portal: "https://eu.wotblitz.com"
+                blitzkit: "https://blitzkit.app"
             native:
                 youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
                 twitter: "twitter://user?id=1134245654"
@@ -220,16 +221,19 @@ Regions:
             NA_C2:
                 clusterID: 2
                 url: "login2.wotblitz.com:20016"
+            NA_C3:
+                clusterID: 3
+                url: "login3.wotblitz.com:20016"
         communityUrls:
             http:
                 facebook: "https://www.facebook.com/wotblitz"
                 instagram: "https://www.instagram.com/wotblitz/"
                 youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
                 twitter: "https://twitter.com/WoTBlitz"
-                portal: "https://na.wotblitz.com"
                 wargaming: "https://www.wargaming.net"
-                blitzkit: "https://blitzkit.app"
                 discord: "https://discord.gg/sR2X6Hp"
+                portal: "https://na.wotblitz.com"
+                blitzkit: "https://blitzkit.app"
             native:
                 youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
                 twitter: "twitter://user?id=1134245654"
@@ -319,10 +323,10 @@ Regions:
                 instagram: "https://www.instagram.com/wotblitz/"
                 youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
                 twitter: "https://twitter.com/BlitzAsia"
-                portal: "https://asia.wotblitz.com"
                 wargaming: "https://www.wargaming.net"
-                blitzkit: "https://blitzkit.app"
                 discord: "https://discord.gg/sR2X6Hp"
+                portal: "https://asia.wotblitz.com"
+                blitzkit: "https://blitzkit.app"
             native:
                 youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
                 twitter: "twitter://user?id=2616820147"
@@ -396,9 +400,6 @@ Regions:
             EU_C0:
                 clusterID: 0
                 url: "login0.wotblitz.eu:20016"
-            EU_C1:
-                clusterID: 1
-                url: "login1.wotblitz.eu:20016"
             EU_C3:
                 clusterID: 3
                 url: "login3.wotblitz.eu:20016"
@@ -411,10 +412,10 @@ Regions:
                 instagram: "https://www.instagram.com/wotblitz/"
                 youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
                 twitter: "https://twitter.com/WoTBlitz"
-                portal: "https://eu.wotblitz.com"
                 wargaming: "https://www.wargaming.net"
-                blitzkit: "https://blitzkit.app"
                 discord: "https://discord.gg/sR2X6Hp"
+                portal: "https://eu.wotblitz.com"
+                blitzkit: "https://blitzkit.app"
             native:
                 youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
                 twitter: "twitter://user?id=1134245654"
@@ -488,16 +489,19 @@ Regions:
             NA_C2:
                 clusterID: 2
                 url: "login2.wotblitz.com:20016"
+            NA_C3:
+                clusterID: 3
+                url: "login3.wotblitz.com:20016"
         communityUrls:
             http:
                 facebook: "https://www.facebook.com/wotblitz"
                 instagram: "https://www.instagram.com/wotblitz/"
                 youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
                 twitter: "https://twitter.com/WoTBlitz"
-                portal: "https://na.wotblitz.com"
                 wargaming: "https://www.wargaming.net"
-                blitzkit: "https://blitzkit.app"
                 discord: "https://discord.gg/sR2X6Hp"
+                portal: "https://na.wotblitz.com"
+                blitzkit: "https://blitzkit.app"
             native:
                 youtube: "https://www.youtube.com/channel/UC9lE09jxmMgMoG13WrNHPmA"
                 twitter: "twitter://user?id=1134245654"
@@ -812,6 +816,30 @@ ClanEmblems:
         104:
             Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-104.png"
             Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-104.png"
+        105:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-105.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-105.png"
+        106:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-106.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-106.png"
+        107:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-107.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-107.png"
+        108:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-108.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-108.png"
+        109:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-109.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-109.png"
+        110:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-110.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-110.png"
+        111:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-111.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-111.png"
+        112:
+            Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-112.png"
+            Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-112.png"
         10001:
             Gfx: "https://wotblitz-gc.gcdn.co/icons/clanEmblems1x/clan-icon-v2-10001.png"
             Gfx2: "https://wotblitz-gc.gcdn.co/icons/clanEmblems2x/clan-icon-v2-10001.png"
