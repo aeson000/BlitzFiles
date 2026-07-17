@@ -39,11 +39,9 @@ Common:
         regLink: "https://wargaming.net/support/%(locale)/products/wotb/article/37250/"
     xstsTokenUrl: "https://wargaming.net"
     smartDlcUrls:
-        - "http://dl-wotblitz-gc.wargaming.net/dlc"
-        - "http://cdn.static.wotb.app/dlc"
+        - "https://raw.githubusercontent.com/aeson000/BlitzFiles/refs/heads/main/conf/"
     smartDlcDynamicContentConfigsUrls:
-        - "http://dl-wotblitz-gc.wargaming.net/dlc"
-        - "http://cdn.static.wotb.app/dlc"
+        - "https://raw.githubusercontent.com/aeson000/BlitzFiles/refs/heads/main/conf/"
     public: "true"
     wotBlitzPortal: "https://wotblitz.com"
     netEaseGas3Url: "https://mgbsdk.matrix.netease.com/ma67/sdk/"
